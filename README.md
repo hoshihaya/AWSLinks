@@ -7,7 +7,7 @@ AWSLinks for Chrome extentiion
 
 ### 1. Download the Source Code
 
-- `git clone git@github.com:hoshihaya/ProxySwitchPi.git` or save all the files (manifest.json, background.js, popup.html, popup.js) in a folder (e.g., proxy-switch-pi).
+- `git clone git@github.com:hoshihaya/AWSLinks.git` or save all the files (manifest.json, background.js, popup.html, popup.js) in a folder (e.g., AWSLinks).
 
 ### 2. Open Chrome Extensions Page
 
@@ -23,14 +23,12 @@ AWSLinks for Chrome extentiion
 
 ### 5. Verify Installation
 
-- The ProxySwitchPi extension should now appear in the Chrome extensions list.
+- The AWSLinks extension should now appear in the Chrome extensions list.
 
 ### 6. Open and Configure
 
 - Click on the extension icon in the Chrome toolbar.
-- Enter your Proxy Server (IP:Port only, no protocol).
-- Select the Proxy Type (SOCKS5 or HTTP).
-- Add domains (one per line, using * for wildcards if needed).
-- Click "Save" to apply the settings.
+- Click "▼" button.
+- "Import" from conf/aws-bookmarks.json OR "Add Link" by yourself.
 
 
