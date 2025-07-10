@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>AWS Service Links</title>
+</head>
+<body>
+  <!-- Incremental Search -->
+  <input id="search" type="text" placeholder="Search services or bookmarks..." autofocus />
+
+  <!-- Services & Bookmarks List -->
+  <div id="list"></div>
+
+  <!-- Toggle Bottom Section -->
+  <button id="toggleBottomBtn" class="toggle-bottom">▼</button>
+
+  <!-- Bottom Controls: Service, Title+URL, Actions -->
+  <div class="bottom-section">
+    <!-- Row 1: Service Selection Only -->
+    <div class="row1">
+      <div class="service-select">
+        <img id="serviceLogo" src="" alt="Service Logo" />
+        <select id="bmService"></select>
+      </div>
+    </div>
+    <!-- Row 2: Title and URL -->
+    <div class="row2">
+      <input id="bmTitle" type="text" placeholder="Title" />
+      <input id="bmUrl" type="url" placeholder="URL" />
+    </div>
+    <!-- Row 3: Export, Add Link, Import -->
+    <div class="row3">
+      <button id="exportBtn">Export</button>
+      <button id="addBookmarkBtn">Add Link</button>
+      <label for="importFile" class="import-label">Import</label>
+      <input id="importFile" type="file" accept="application/json" style="display:none;" />
+    </div>
+    <div class="row4">
+      <button id="clearAllBtn">All Clear</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

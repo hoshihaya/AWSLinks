@@ -1,0 +1,321 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 320px;
+  background-color: #1b232d;
+  color: #fff;
+}
+
+#search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #2d3a4e;
+  color: #fff;
+}
+
+#list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+
+.service-group {
+  margin-bottom: 10px;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.service-header img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-bottom: 1px solid #3a4555;
+  transition: background 0.2s;
+}
+
+.bookmark-item:hover {
+  background-color: #34415a;
+  border-radius: 4px;
+}
+
+.bookmark-item a {
+  text-decoration: none;
+  flex: 1;
+  color: #fff;
+}
+
+.preset-label {
+  font-size: 0.75rem;
+  color: #999;
+  margin-left: 8px;
+}
+
+.edit-btn {
+  background: #555;
+  color: #fff;
+  padding: 4px 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.edit-btn:hover {
+  background: #666;
+}
+
+/* Edit form styles */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  background: #848788;
+  border: 1px solid #3a4555;
+  border-radius: 4px;
+  margin: 6px 0;
+}
+
+.edit-form input {
+  padding: 6px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2d3a4e;
+  color: #fff;
+}
+
+.edit-form .buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.save-btn, .cancel-btn, .delete-btn {
+  flex: 1;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.save-btn {
+  background: #007AFF;
+  color: #fff;
+}
+
+.cancel-btn {
+  background: #444;
+  color: #fff;
+}
+
+.delete-btn {
+  background: #E02020;
+  color: #fff;
+}
+
+/* Add Link Section */
+#add-section {
+  background: #252f3f;
+  padding: 8px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+#add-section input,
+#add-section select {
+  padding: 6px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2d3a4e;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#add-section button {
+  grid-column: 2;
+  background: #007AFF;
+  color: #fff;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#add-section button:hover {
+  background: #005BBB;
+}
+
+/* Export / Import Section */
+.import-export {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.import-export button,
+.import-export .import-label {
+  padding: 6px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2d3a4e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.import-export button:hover,
+.import-export .import-label:hover {
+  background: #3a4555;
+}
+
+#list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+
+.toggle-bottom {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 8px;
+  background: #3a3a3a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.toggle-bottom:hover {
+  background: #4a4a4a;
+}
+
+.bottom-section {
+  display: none;
+  background: #848788;
+  padding: 8px;
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bottom-section.expanded {
+  display: flex;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.service-select {
+  display: flex;
+  align-items: center;
+}
+
+.service-select img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.row1 select {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background: #c0c5cd;
+  color: #000;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.row2 input {
+  padding: 6px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background: #c0c5cd;
+  color: #000;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 6px;
+}
+
+.row4 #clearAllBtn {
+  float: right;
+  margin-top: 10px;
+  padding: 6px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #333333;
+  cursor: pointer;
+}
+
+.row3 button#exportBtn,
+.row3 .import-label {
+  justify-self: start;
+  padding: 6px 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: background 0.2s;
+  margin: 0 auto;
+}
+
+.row3 button#exportBtn:hover,
+.row3 .import-label:hover {
+  background: #222;
+}
+
+.row3 button#addBookmarkBtn {
+  justify-self: center;
+  padding: 10px 24px;
+  background: linear-gradient(to bottom, #4A90E2, #357ABD);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: background 0.2s;
+}
+
+.row3 button#addBookmarkBtn:hover {
+  background: linear-gradient(to bottom, #5AA0F0, #4A90E2);
+}
