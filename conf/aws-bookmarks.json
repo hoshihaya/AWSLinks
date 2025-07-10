@@ -1,0 +1,119 @@
+{
+  "bookmarks": [
+    {
+      "service": "S3",
+      "title": "S3バケット",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/s3/buckets?region=ap-northeast-1&bucketType=general"
+    },
+    {
+      "service": "Systems Manager",
+      "title": "パラメータストア",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/systems-manager/parameters/?region=ap-northeast-1&tab=Table"
+    },
+    {
+      "service": "VPC",
+      "title": "セキュリティグループ",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-northeast-1#SecurityGroups:"
+    },
+    {
+      "service": "CloudFront",
+      "title": "ディストリビューション",
+      "url": "https://us-east-1.console.aws.amazon.com/cloudfront/v4/home?region=ap-northeast-1#/distributions"
+    },
+    {
+      "service": "Route53",
+      "title": "ホストゾーン",
+      "url": "https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=ap-northeast-1#"
+    },
+    {
+      "service": "CodePipeline",
+      "title": "パイプライン",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/codesuite/codepipeline/pipelines?region=ap-northeast-1"
+    },
+    {
+      "service": "CodeBuild",
+      "title": "ビルドプロジェクト",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1"
+    },
+    {
+      "service": "ECS",
+      "title": "クラスター",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/ecs/v2/clusters?region=ap-northeast-1"
+    },
+    {
+      "service": "ElastiCache",
+      "title": "Valkey",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/valkey"
+    },
+    {
+      "service": "ElastiCache",
+      "title": "Memcached",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/memcached"
+    },
+    {
+      "service": "ElastiCache",
+      "title": "Redis",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/redis"
+    },
+    {
+      "service": "VPC",
+      "title": "ピアリング接続",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-northeast-1#PeeringConnections:"
+    },
+    {
+      "service": "DynamoDB",
+      "title": "テーブル",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/dynamodbv2/home?region=ap-northeast-1#tables"
+    },
+    {
+      "service": "SQS",
+      "title": "キュー",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/sqs/v3/home?region=ap-northeast-1#/queues"
+    },
+    {
+      "service": "WAF",
+      "title": "グローバル Web ACLs",
+      "url": "https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls?region=global#/"
+    },
+    {
+      "service": "WAF",
+      "title": "Tokyo Web ACLs",
+      "url": "https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls?region=ap-northeast-1#/"
+    },
+    {
+      "service": "CloudWatch",
+      "title": "ダッシュボード",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#dashboards/"
+    },
+    {
+      "service": "CloudWatch",
+      "title": "ロググループ",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logsV2:log-groups"
+    },
+    {
+      "service": "AWS Batch",
+      "title": "ダッシュボード",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/batch/home?region=ap-northeast-1#"
+    },
+    {
+      "service": "Aurora",
+      "title": "データベース",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/rds/home?region=ap-northeast-1#databases:"
+    },
+    {
+      "service": "EC2",
+      "title": "インスタンス / instance",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#Instances:"
+    },
+    {
+      "service": "EC2",
+      "title": "ロードバランサ / LB",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#LoadBalancers"
+    },
+    {
+      "service": "EC2",
+      "title": "ターゲットグループ / TG",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#TargetGroups"
+    }
+  ]
+}
