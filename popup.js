@@ -23,8 +23,8 @@ const awsServices = [
   { name: "SNS", logo: "./aws-icons/SNS.png" },
   { name: "WAF", logo: "./aws-icons/WAF.png" },
   { name: "ElastiCache", logo: "./aws-icons/ElastiCache.png" },
-  { name: "IAM", logo: "./aws-icons/IAM.png" },
-  { name: "Billing and Cost Management", logo: "./aws-icons/Billing.png" },
+  { name: "IAM", logo: "./aws-icons/AWS.png" },
+  { name: "Billing and Cost Management", logo: "./aws-icons/AWS.png" },
   { name: "サポートセンター", logo: "./aws-icons/Support.png" },
   { name: "その他", logo: "./aws-icons/AWS.png" }
 ];
