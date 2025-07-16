@@ -41,6 +41,11 @@
       "url": "https://ap-northeast-1.console.aws.amazon.com/ecs/v2/clusters?region=ap-northeast-1"
     },
     {
+      "service": "ECS",
+      "title": "ECR リポジトリ",
+      "url": "https://ap-northeast-1.console.aws.amazon.com/ecr/private-registry/repositories?region=ap-northeast-1"
+    },
+    {
       "service": "ElastiCache",
       "title": "Valkey",
       "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/valkey"
@@ -72,12 +77,12 @@
     },
     {
       "service": "WAF",
-      "title": "グローバル Web ACLs",
+      "title": "Web ACLs (Global)",
       "url": "https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls?region=global#/"
     },
     {
       "service": "WAF",
-      "title": "Tokyo Web ACLs",
+      "title": "Web ACLs (Tokyo)",
       "url": "https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls?region=ap-northeast-1#/"
     },
     {
@@ -114,6 +119,21 @@
       "service": "EC2",
       "title": "ターゲットグループ / TG",
       "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#TargetGroups"
+    },
+    {
+      "service": "IAM",
+      "title": "IAM User",
+      "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=ap-northeast-1#/users"
+    },
+    {
+      "service": "IAM",
+      "title": "IAM Role",
+      "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=ap-northeast-1#/roles"
+    },
+    {
+      "service": "IAM",
+      "title": "IAM Policy",
+      "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=ap-northeast-1#/policies"
     }
   ]
 }
