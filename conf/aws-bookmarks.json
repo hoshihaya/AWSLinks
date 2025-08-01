@@ -3,77 +3,77 @@
     {
       "service": "S3",
       "title": "S3バケット",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/s3/buckets?region=ap-northeast-1&bucketType=general"
+      "url": "https://console.aws.amazon.com/s3/buckets"
     },
     {
       "service": "Systems Manager",
       "title": "パラメータストア",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/systems-manager/parameters/?region=ap-northeast-1&tab=Table"
+      "url": "https://console.aws.amazon.com/systems-manager/parameters/?tab=Table"
     },
     {
       "service": "VPC",
       "title": "セキュリティグループ",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-northeast-1#SecurityGroups:"
+      "url": "https://console.aws.amazon.com/vpcconsole/home#SecurityGroups:"
     },
     {
       "service": "CloudFront",
       "title": "ディストリビューション",
-      "url": "https://us-east-1.console.aws.amazon.com/cloudfront/v4/home?region=ap-northeast-1#/distributions"
+      "url": "https://console.aws.amazon.com/cloudfront/v4/home#/distributions"
     },
     {
       "service": "Route53",
       "title": "ホストゾーン",
-      "url": "https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=ap-northeast-1#"
+      "url": "https://console.aws.amazon.com/route53/v2/hostedzones"
     },
     {
       "service": "CodePipeline",
       "title": "パイプライン",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/codesuite/codepipeline/pipelines?region=ap-northeast-1"
+      "url": "https://console.aws.amazon.com/codesuite/codepipeline/pipelines"
     },
     {
       "service": "CodeBuild",
       "title": "ビルドプロジェクト",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1"
+      "url": "https://console.aws.amazon.com/codesuite/codebuild/projects"
     },
     {
       "service": "ECS",
       "title": "クラスター",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/ecs/v2/clusters?region=ap-northeast-1"
+      "url": "https://console.aws.amazon.com/ecs/v2/clusters"
     },
     {
       "service": "ECS",
       "title": "ECR リポジトリ",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/ecr/private-registry/repositories?region=ap-northeast-1"
+      "url": "https://console.aws.amazon.com/ecr/private-registry/repositories"
     },
     {
       "service": "ElastiCache",
       "title": "Valkey",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/valkey"
+      "url": "https://console.aws.amazon.com/elasticache/home#/valkey"
     },
     {
       "service": "ElastiCache",
       "title": "Memcached",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/memcached"
+      "url": "https://console.aws.amazon.com/elasticache/home#/memcached"
     },
     {
       "service": "ElastiCache",
       "title": "Redis",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/elasticache/home?region=ap-northeast-1#/redis"
+      "url": "https://console.aws.amazon.com/elasticache/home#/redis"
     },
     {
       "service": "VPC",
       "title": "ピアリング接続",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-northeast-1#PeeringConnections:"
+      "url": "https://console.aws.amazon.com/vpcconsole/home#PeeringConnections:"
     },
     {
       "service": "DynamoDB",
       "title": "テーブル",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/dynamodbv2/home?region=ap-northeast-1#tables"
+      "url": "https://console.aws.amazon.com/dynamodbv2/home#tables"
     },
     {
       "service": "SQS",
       "title": "キュー",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/sqs/v3/home?region=ap-northeast-1#/queues"
+      "url": "https://console.aws.amazon.com/sqs/v3/home#/queues"
     },
     {
       "service": "WAF",
@@ -83,57 +83,57 @@
     {
       "service": "WAF",
       "title": "Web ACLs (Tokyo)",
-      "url": "https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls?region=ap-northeast-1#/"
+      "url": "https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls#/"
     },
     {
       "service": "CloudWatch",
       "title": "ダッシュボード",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#dashboards/"
+      "url": "https://console.aws.amazon.com/cloudwatch/home#dashboards/"
     },
     {
       "service": "CloudWatch",
       "title": "ロググループ",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logsV2:log-groups"
+      "url": "https://console.aws.amazon.com/cloudwatch/home#logsV2:log-groups"
     },
     {
       "service": "AWS Batch",
       "title": "ダッシュボード",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/batch/home?region=ap-northeast-1#"
+      "url": "https://console.aws.amazon.com/batch/home#"
     },
     {
       "service": "Aurora",
       "title": "データベース",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/rds/home?region=ap-northeast-1#databases:"
+      "url": "https://console.aws.amazon.com/rds/home#databases:"
     },
     {
       "service": "EC2",
       "title": "インスタンス / instance",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#Instances:"
+      "url": "https://console.aws.amazon.com/ec2/home#Instances:"
     },
     {
       "service": "EC2",
       "title": "ロードバランサ / LB",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#LoadBalancers"
+      "url": "https://console.aws.amazon.com/ec2/home#LoadBalancers"
     },
     {
       "service": "EC2",
       "title": "ターゲットグループ / TG",
-      "url": "https://ap-northeast-1.console.aws.amazon.com/ec2/home?region=ap-northeast-1#TargetGroups"
+      "url": "https://console.aws.amazon.com/ec2/home#TargetGroups"
     },
     {
       "service": "IAM",
       "title": "IAM User",
-      "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=ap-northeast-1#/users"
+      "url": "https://console.aws.amazon.com/iam/home#/users"
     },
     {
       "service": "IAM",
       "title": "IAM Role",
-      "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=ap-northeast-1#/roles"
+      "url": "https://console.aws.amazon.com/iam/home#/roles"
     },
     {
       "service": "IAM",
       "title": "IAM Policy",
-      "url": "https://us-east-1.console.aws.amazon.com/iam/home?region=ap-northeast-1#/policies"
+      "url": "https://console.aws.amazon.com/iam/home#/policies"
     }
   ]
 }
